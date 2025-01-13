@@ -18,7 +18,7 @@
     file = {
       ".config/hypr" = {
         source = ./hypr;
-	recursive = true;
+        recursive = true;
       };
 
       ".config/waybar" = {
@@ -28,23 +28,25 @@
 
       ".config/rofi" = {
         source = ./rofi;
-	recursive = true;
+        recursive = true;
       };
 
       ".config/alacritty" = {
         source = ./alacritty;
-	recursive = true;
+        recursive = true;
       };
 
       ".config/kanshi" = {
         source = ./kanshi;
-	recursive = true;
+        recursive = true;
       };
 
       ".config/nvim" = {
         source = ./nvim;
-	recursive = true;
+        recursive = true;
       };
+
+      ".zshrc" = ./zsh/.zshrc;
     };
 
       # This value determines the Home Manager release that your configuration is
