@@ -60,6 +60,7 @@
       shellAliases = {
         "os-update" = "nix flake update --flake $NIX_FLAKE_SRC";
         "os-upgrade" = "sudo nixos-rebuild switch --flake $NIX_FLAKE_SRC";
+        "repo-develop" = "nix develop --run zsh";
       };
       enableCompletion = true;
       ohMyZsh = {
