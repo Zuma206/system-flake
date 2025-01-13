@@ -45,8 +45,6 @@
         source = ./nvim;
         recursive = true;
       };
-
-      ".zshrc".source = ./zsh/.zshrc;
     };
 
       # This value determines the Home Manager release that your configuration is
