@@ -15,7 +15,7 @@
   };
   promptInit = ''
     if [ -n "$IN_NIX_SHELL" ]; then
-      export P1="(nix-shell) $P1"
+      export PS1="(nix-shell) $PS1"
     fi
   '';
 }
