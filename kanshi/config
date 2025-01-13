@@ -1,0 +1,18 @@
+profile {
+  output "OOO EG27144 Unknown" scale 1.25
+  output "BOE 0x095F Unknown" disable
+}
+
+profile {
+  output "BOE 0x095F Unknown" scale 1.175000
+}
+
+profile {
+  output "LG Electronics LG TV 0x01010101" enable
+  output "BOE 0x095F Unknown" disable
+}
+
+profile {
+  output "AOC 2270W GFKH9HA034272" enable
+  output "BOE 0x095F Unknown" disable
+}

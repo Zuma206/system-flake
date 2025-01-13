@@ -1,0 +1,9 @@
+general.import = [
+  "~/.nix-profile/catppuccin_mocha.toml"
+]
+
+[font]
+normal.family = "JetBrainsMonoNL Nerd Font"
+size = 16
+offset.y = 10
+glyph_offset.y = 5

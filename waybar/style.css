@@ -1,0 +1,39 @@
+@define-color base #1e1e2e;
+@define-color text #cdd6f4;
+@define-color surface0 #313244;
+@define-color surface1 #45475a;
+@define-color pink #f5c2e7;
+@define-color crust #181926;
+
+window {
+  font-family: "JetBrainsMonoNL Nerd Font";
+  background-color: @base;
+  color: @text;
+}
+
+#workspaces button {
+  border-radius: 0;
+}
+
+#workspaces button.active {
+  background-color: @surface0;
+}
+
+#workspaces button.empty {
+  color: @surface1;
+}
+
+window, #workspaces button {
+  border-bottom: 1px solid @pink;
+}
+
+tooltip {
+  background-color: @base;
+  border-radius: 0;
+  border: 1px solid @pink;
+  font-size: 16pt;
+}
+
+.modules-right .module {
+  margin: 0 6pt;
+}

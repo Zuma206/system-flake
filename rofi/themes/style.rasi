@@ -1,0 +1,44 @@
+* {
+  clear: rgba(0,0,0,0);
+  surface0: #313244;
+  base: #1e1e2e;
+  text: #cdd6f4;
+  pink: #f5c2e7;
+
+  background-color: @clear;
+  color: @text;
+}
+
+element-text {
+  padding: 0.2em;
+}
+
+element-text selected {
+  background-color: @pink;
+  color: @base;
+}
+
+window {
+  padding: 0.5em;
+  border-color: @pink;
+  border: 1px;
+  width: 28em;
+  height: 16em;
+  background-color: @base;
+}
+
+inputbar, prompt, entry {
+  background-color: @surface0;
+}
+
+entry {
+  padding: 0 0 0 0.3em;
+}
+
+inputbar {
+  padding: 0.4em 0.5em;
+}
+
+listview {
+  padding: 0.5em 0 0 0;
+}

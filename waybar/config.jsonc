@@ -1,0 +1,86 @@
+{
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": [
+    "tray",
+    "backlight",
+    "pulseaudio",
+    "memory",
+    "cpu",
+    "battery",
+    "custom/power"
+  ],
+  "hyprland/workspaces": {
+    "persistent-workspaces": {
+      "*": 5
+    }
+  },
+  "clock": {
+    "format": "{:%a %d %b %H:%M}",
+    "tooltip-format": "<tt>{calendar}</tt>",
+    "calendar": {
+      "format": {
+        "today": "<span color='#f5c2e7'><b><u>{}</u></b></span>"
+      }
+    },
+    "actions":  {
+      "on-click-right": "shift_up",
+      "on-click": "shift_down"
+    }
+  },
+  "tray": {
+    "spacing": 10,
+  },
+  "backlight": {
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
+  },
+  "network": {
+    "format-wifi": "{icon}",
+    "tooltip-format-wifi": "{essid} - {signalStrength}%",
+    "format-icons": [
+      "󰤯",
+      "󰤟",
+      "󰤢",
+      "󰤥",
+      "󰤨"
+    ]
+  },
+  "bluetooth": {
+    "on-click": "blueman-manager",
+    "tooltip-format": "{device_enumerate}",
+    "format-connected": " ({num_connections})"
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-icons": ["󰕿", "󰖀", "󰕾"],
+    "format-muted": "󰝟 Muted",
+    "on-click": "pavucontrol",
+  },
+  "memory": {
+    "format": "  {used}GB"
+  },
+  "cpu": {
+    "format": " {usage}%"
+  },
+  "battery": {
+    "format-charging": "{icon}󱐋 {capacity}%",
+    "format": "{icon} {capacity}%",
+    "format-icons": [
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ]
+  },
+  "custom/power": {
+    "format": "󰐥",
+    "on-click": "rofi -show power"
+  }
+}

@@ -1,0 +1,11 @@
+@theme "style"
+
+configuration {
+  font: "JetBrainsMonoNL Nerd Font 14";
+  drun-display-format: "{name}";
+  hover-select: true;
+  me-accept-entry: "MousePrimary";
+  me-select-entry: "";
+  display-drun: " ";
+  modi: "power:rofi-power-menu";
+}
