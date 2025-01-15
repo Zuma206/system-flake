@@ -35,7 +35,7 @@
     libnotify
 
     # Programming
-    nodePackages.vscode-json-languageserver
+    vscode-langservers-extracted
     lua-language-server
     typescript-language-server
     nixd
