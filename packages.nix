@@ -6,7 +6,6 @@
   users.users.james.packages = with pkgs; [
     # Applications
     alacritty
-    neovim
     fastfetch
     obsidian
 
@@ -35,6 +34,8 @@
     libnotify
 
     # Programming
+    neovim
+    jetbrains.idea-community-bin
     vscode-langservers-extracted
     lua-language-server
     typescript-language-server
