@@ -1,4 +1,4 @@
-local configured_lsps = {"lua_ls", "nixd", "ts_ls"}
+local configured_lsps = { "lua_ls", "nixd", "ts_ls", "gopls", "jsonls" }
 
 return {
   "hrsh7th/nvim-cmp",

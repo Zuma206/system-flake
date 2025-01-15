@@ -38,8 +38,9 @@
     nodePackages.vscode-json-languageserver
     lua-language-server
     typescript-language-server
-    clang
     nixd
+    gopls
+    clang
     git
   ];
 
