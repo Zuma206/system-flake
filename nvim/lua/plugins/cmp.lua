@@ -20,7 +20,8 @@ return {
             validate = { enable = true }
           }
         }
-      }
+      },
+      "jdtls",
     }
 
     local luasnip = require("luasnip")

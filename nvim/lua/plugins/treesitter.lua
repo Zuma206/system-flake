@@ -8,7 +8,8 @@ return {
         "go",
         "json",
         "nix",
-        "typescript"
+        "typescript",
+        "java",
       },
       sync_install = false,
     })
