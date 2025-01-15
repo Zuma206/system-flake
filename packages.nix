@@ -35,6 +35,7 @@
     libnotify
 
     # Programming
+    jetbrains.idea-community-bin
     vscode-langservers-extracted
     lua-language-server
     typescript-language-server
