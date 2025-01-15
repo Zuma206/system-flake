@@ -1,7 +1,7 @@
 {
   enable = true;
   shellAliases = {
-    "os-update" = "nix flake update --flake $NIX_FLAKE_SRC";
+    "os-update" = "sudo nix flake update --flake $NIX_FLAKE_SRC";
     "os-upgrade" = "sudo nixos-rebuild switch --flake $NIX_FLAKE_SRC";
     "flake-develop" = "nix develop --command zsh";
   };
