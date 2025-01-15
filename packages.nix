@@ -40,6 +40,7 @@
     lua-language-server
     typescript-language-server
     jdt-language-server
+    zulu23
     nixd
     gopls
     clang
