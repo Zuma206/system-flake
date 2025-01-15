@@ -1,13 +1,28 @@
-local configured_lsps = { "lua_ls", "nixd", "ts_ls", "gopls", "jsonls" }
-
 return {
   "hrsh7th/nvim-cmp",
   dependencies = {
     "neovim/nvim-lspconfig",
     "hrsh7th/cmp-nvim-lsp",
-    "L3MON4D3/LuaSnip"
+    "L3MON4D3/LuaSnip",
+    "b0o/schemastore.nvim"
   },
   config = function()
+    local lsps = {
+      "lua_ls",
+      "nixd",
+      "ts_ls",
+      "gopls",
+      {
+        "jsonls",
+        {
+          json = {
+            schemas = require('schemastore').json.schemas(),
+            validate = { enable = true }
+          }
+        }
+      }
+    }
+
     local luasnip = require("luasnip")
     local cmp = require("cmp")
 
@@ -32,8 +47,16 @@ return {
     local capabilities = require('cmp_nvim_lsp').default_capabilities()
     local lspconfig = require("lspconfig")
 
-    for _, lsp in pairs(configured_lsps) do
-      lspconfig[lsp].setup({ capabilities = capabilities })
+    for _, lsp in pairs(lsps) do
+      if type(lsp) == "string" then
+        lspconfig[lsp].setup({ capabilities = capabilities })
+      else
+        local name, settings = lsp[1], lsp[2]
+        lspconfig[name].setup({
+          capabilities = capabilities,
+          settings = settings
+        })
+      end
     end
   end
 }
