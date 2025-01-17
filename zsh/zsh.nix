@@ -5,7 +5,6 @@
     "os-upgrade" = "sudo nixos-rebuild switch --flake $NIX_FLAKE_SRC";
     "flake-develop" = "nix develop --command zsh";
   };
-  enableCompletion = true;
   ohMyZsh = {
     enable = true;
     theme = "robbyrussell";
