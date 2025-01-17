@@ -45,6 +45,7 @@
     gopls
     clang
     git
+    nodejs_22
   ];
 
   environment.systemPackages = [
