@@ -9,9 +9,7 @@
     enable = true;
     theme = "robbyrussell";
   };
-  autosuggestions = {
-    enable = true;
-  };
+  enableCompletion = true;
   promptInit = ''
     if [ -n "$IN_NIX_SHELL" ]; then
       export PS1="(nix-shell) $PS1"
