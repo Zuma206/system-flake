@@ -51,6 +51,7 @@
     go
     zulu23 # OpenJDK
     clang
+    bun
   ];
 
   environment.systemPackages = [
