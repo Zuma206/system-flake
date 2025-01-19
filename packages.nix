@@ -5,12 +5,15 @@
 
   users.users.james.packages = with pkgs; [
     # Applications
+    neovim
+    jetbrains.idea-community-bin
     alacritty
     fastfetch
     obsidian
 
     # Utilities
     ripgrep
+    git
 
     # Themeing
     catppuccin-cursors.mochaDark
@@ -33,19 +36,21 @@
     brightnessctl
     libnotify
 
-    # Programming
-    neovim
-    jetbrains.idea-community-bin
+    # Language Servers / Formatters
     vscode-langservers-extracted
     lua-language-server
     typescript-language-server
     jdt-language-server
-    zulu23
     nixd
     gopls
-    clang
-    git
+    stylua
+    prettierd
+
+    # Languages / Compilers
     nodejs_22
+    go
+    zulu23 # OpenJDK
+    clang
   ];
 
   environment.systemPackages = [
