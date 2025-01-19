@@ -8,9 +8,13 @@ vim.opt.expandtab = true
 vim.opt.signcolumn = "yes"
 
 vim.diagnostic.config({
-  signs = {
-    text = {
-      [vim.diagnostic.severity.WARN] = ""
-    }
-  }
+	signs = {
+		text = {
+			[vim.diagnostic.severity.WARN] = "",
+		},
+	},
 })
+
+vim.keymap.set("n", "<leader>w", function()
+	vim.api.nvim_buf_delete(0, {})
+end)

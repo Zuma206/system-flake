@@ -25,5 +25,9 @@ return {
 				conform.format({ bufnr = args.buf })
 			end,
 		})
+
+		vim.keymap.set("n", "<leader>g", function()
+			conform.format()
+		end)
 	end,
 }
