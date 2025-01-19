@@ -10,6 +10,9 @@ return {
 				"nix",
 				"typescript",
 				"java",
+				"html",
+				"css",
+				"javascript",
 			},
 			sync_install = false,
 			highlight = {
