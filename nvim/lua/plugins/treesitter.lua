@@ -14,7 +14,6 @@ return {
 				"css",
 				"javascript",
 				"tsx",
-				"jsx",
 			},
 			sync_install = false,
 			highlight = {
