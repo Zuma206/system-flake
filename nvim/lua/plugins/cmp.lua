@@ -23,7 +23,7 @@ return {
 			},
 			"jdtls",
 			"html",
-			"css",
+			"cssls",
 		}
 
 		local luasnip = require("luasnip")
