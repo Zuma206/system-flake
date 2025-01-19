@@ -45,6 +45,10 @@ return {
 				["<C-e>"] = cmp.mapping.abort(),
 				["<TAB>"] = cmp.mapping.confirm({ select = true }),
 			}),
+			window = {
+				completion = cmp.config.window.bordered(),
+				documentation = cmp.config.window.bordered(),
+			},
 		})
 
 		local capabilities = require("cmp_nvim_lsp").default_capabilities()
