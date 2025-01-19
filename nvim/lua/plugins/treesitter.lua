@@ -13,6 +13,8 @@ return {
 				"html",
 				"css",
 				"javascript",
+				"tsx",
+				"jsx",
 			},
 			sync_install = false,
 			highlight = {
