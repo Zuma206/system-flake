@@ -12,6 +12,9 @@ return {
 				"java",
 			},
 			sync_install = false,
+			highlight = {
+				enable = true,
+			},
 		})
 
 		vim.keymap.set("n", "<leader>t", function()
