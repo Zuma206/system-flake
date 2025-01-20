@@ -69,5 +69,9 @@ return {
 		vim.keymap.set("n", "<leader>r", function()
 			vim.lsp.buf.hover()
 		end)
+
+		vim.keymap.set("n", "<leader>g", function()
+			vim.lsp.buf.definition()
+		end)
 	end,
 }
