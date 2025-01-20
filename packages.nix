@@ -47,6 +47,7 @@
     prettierd
 
     # Languages / Compilers
+    wrangler
     nodejs_22
     go
     zulu23 # OpenJDK
