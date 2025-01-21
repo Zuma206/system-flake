@@ -10,6 +10,7 @@
     alacritty
     fastfetch
     obsidian
+    python312Packages.jupyterlab
 
     # Utilities
     ripgrep
