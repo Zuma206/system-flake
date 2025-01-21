@@ -10,6 +10,7 @@
     alacritty
     fastfetch
     obsidian
+    vscodium
 
     # Utilities
     ripgrep
@@ -82,9 +83,6 @@
     xserver.displayManager.gdm = {
       enable = true;
       wayland = true;
-    };
-    jupyter = {
-      enable = true;
     };
   };
 
