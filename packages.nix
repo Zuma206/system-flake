@@ -10,7 +10,6 @@
     alacritty
     fastfetch
     obsidian
-    python312Packages.jupyterlab
 
     # Utilities
     ripgrep
@@ -54,7 +53,6 @@
     zulu23 # OpenJDK
     clang
     bun
-    python312Packages.ipykernel
   ];
 
   environment.systemPackages = [
@@ -84,6 +82,9 @@
     xserver.displayManager.gdm = {
       enable = true;
       wayland = true;
+    };
+    jupyter = {
+      enable = true;
     };
   };
 
