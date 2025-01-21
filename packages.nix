@@ -66,8 +66,14 @@
   programs = {
     firefox.enable = true;
     hyprland.enable = true;
-    thunar.enable = true;
     zsh = import ./zsh/zsh.nix;
+    thunar = {
+      enable = true;
+      plugins = with pkgs.xfce; [
+        thunar-archive-plugin
+      ];
+    };
+    file-roller.enable = true;
   };
 
   services = {
