@@ -54,6 +54,7 @@
     zulu23 # OpenJDK
     clang
     bun
+    python312Packages.ipykernel
   ];
 
   environment.systemPackages = [
