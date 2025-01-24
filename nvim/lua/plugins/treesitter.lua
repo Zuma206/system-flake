@@ -14,6 +14,7 @@ return {
 				"css",
 				"javascript",
 				"tsx",
+				"haskell",
 			},
 			sync_install = false,
 			highlight = {
