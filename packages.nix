@@ -46,6 +46,7 @@
     gopls
     stylua
     prettierd
+    haskell-language-server
 
     # Languages / Compilers
     wrangler
