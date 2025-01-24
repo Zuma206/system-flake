@@ -55,6 +55,7 @@
     clang
     bun
     python314
+    ghc
   ];
 
   environment.systemPackages = [
