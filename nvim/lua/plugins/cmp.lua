@@ -24,6 +24,7 @@ return {
 			"jdtls",
 			"html",
 			"cssls",
+			"hls",
 		}
 
 		local luasnip = require("luasnip")
