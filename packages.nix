@@ -12,6 +12,7 @@
     obsidian
     vscodium
     tmux
+    sqlite
 
     # Utilities
     ripgrep
