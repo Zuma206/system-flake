@@ -11,6 +11,7 @@
     fastfetch
     obsidian
     vscodium
+    tmux
 
     # Utilities
     ripgrep
