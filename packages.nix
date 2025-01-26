@@ -13,6 +13,7 @@
     vscodium
     tmux
     sqlite
+    chromium
 
     # Utilities
     ripgrep
