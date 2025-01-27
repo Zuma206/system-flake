@@ -15,6 +15,7 @@
     sqlite
     chromium
     openssl
+    zed-editor
 
     # Utilities
     ripgrep
