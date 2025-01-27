@@ -52,6 +52,7 @@
     stylua
     prettierd
     haskell-language-server
+    astro-language-server
 
     # Languages / Compilers
     wrangler
