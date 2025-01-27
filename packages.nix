@@ -14,6 +14,7 @@
     tmux
     sqlite
     chromium
+    openssl
 
     # Utilities
     ripgrep
