@@ -15,6 +15,7 @@ return {
 				"javascript",
 				"tsx",
 				"haskell",
+				"astro",
 			},
 			sync_install = false,
 			highlight = {

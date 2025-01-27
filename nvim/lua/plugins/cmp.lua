@@ -25,6 +25,7 @@ return {
 			"html",
 			"cssls",
 			"hls",
+			"astro",
 		}
 
 		local luasnip = require("luasnip")
