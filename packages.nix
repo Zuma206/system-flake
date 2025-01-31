@@ -63,6 +63,7 @@
     bun
     python314
     ghc
+    protobuf
   ];
 
   environment.systemPackages = [
