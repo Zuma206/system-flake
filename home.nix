@@ -15,6 +15,10 @@
       alacritty-theme
     ];
 
+    sessionPath = [
+      "$HOME/go/bin"
+    ];
+
     file = {
       ".config/hypr" = {
         source = ./hypr;
