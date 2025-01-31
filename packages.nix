@@ -64,7 +64,6 @@
     python314
     ghc
     protobuf
-    protoc-gen-twirp
     protoc-gen-go
   ];
 
