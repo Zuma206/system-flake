@@ -1,3 +1,6 @@
+> [!WARNING]
+> I have switched off of NixOS for an FSH compliant distro. Checkout [sysmig](https://github.com/zuma206/sysmig) and [my config](https://github.com/zuma206/sysmig-config) for it for my in-use and maintained system configuration.
+
 # Nix Flake
 
 My NixOS system flake, as well as dotfiles which are symlinked via home manager
